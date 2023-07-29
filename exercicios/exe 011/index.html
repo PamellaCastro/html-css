@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens Flexivel</title>
+</head>
+<body>
+    <h1>Imagens Dinamicas</h1>
+    <p>Abrir imagens em outros dispositivos para testas o dinamismo das imagens ou aumentar e dimunuir a tela do seu navegador.</p>
+    <p>Vamos aprender a reproduzir audios em Html5</p>
+    <audio controls loop preload="metadata">
+        <source src="midia/Fuse.mp3" type="audio/mpeg">
+    </audio> <br>
+    <audio controls preload="metadata">
+        <source src="midia/Feel.mp3" type="audio/mpeg">
+    </audio> <br>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="A imagem flexível funciona">
+    </picture>
+    <picture>
+        <source media="(min-width: 950px)" srcset="imagens/pam-g.jpeg" type="image/jpeg">
+        <source media="(min-width:650px)" srcset="imagens/pam-m.jpeg" type="image/jpeg">
+        <source media="(min-width:300px )" srcset="imagens/pam-p.jpeg" type="image/jpge">
+        <img src="imagens/pam-p.jpeg" alt="Imagem flexível">
+    </picture>
+</body>
+</html>

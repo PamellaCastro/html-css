@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            background-color: darkslateblue;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            text-align: justify;
+            padding: 5px;
+        }
+        header {
+            background-color: rgb(224, 220, 233);
+            font-family: Arial, Helvetica, sans-serif;
+            border: 4px;
+            border-style: solid;
+            border-color: rgb(100, 98, 98);
+            padding: 5px;
+        }
+
+        header > h1 {
+            text-align: center;
+            padding: 5px;
+            font-size: 40px;
+            color:darkslateblue ;
+        }
+        
+        nav {
+            background-color: rgba(134, 130, 130, 0.719);
+
+        }
+       nav > a {
+        padding: 10px;
+        text-decoration: none;
+        color: rgb(58, 33, 92);
+        font-weight: bold;
+       }
+
+       a:hover { color: red;}
+       
+       section > article {
+        background-color: rgb(48, 71, 94);
+        padding: 10px;
+       }
+
+       article > aside {
+        text-align: right;
+        background-color: lightgray;
+        font-weight: bold;
+       }
+
+       h2 {
+        color: rgb(52, 8, 71);
+        background-color: lightgrey;
+       }
+
+       footer {
+        background-color: black;
+        font-weight: bolder;
+        color: white;
+        text-align: center;
+        margin: 5px;
+        padding: 1px;
+       }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <nav>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="noticias">
+
+        </section>
+        <section>
+            <article>
+                <h2>Notícia de algo</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum quasi dolorum obcaecati minus rerum beatae fugit? Aperiam fugiat, beatae dolorem optio est doloremque natus officiis esse culpa molestias. Amet, eius.</p>
+                <aside>
+                    <p>Alguem escreveu</p>
+                </aside>
+            </article>
+            <article>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet fuga dolores assumenda laborum. Facere eaque cupiditate recusandae, libero laboriosam doloribus modi reprehenderit amet officiis necessitatibus ex repudiandae possimus tempore minima.
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por Salvatore.</p>
+    </footer>
+</body>
+</html>
